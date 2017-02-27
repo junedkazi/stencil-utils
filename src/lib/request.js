@@ -17,6 +17,7 @@ export default function (url, opts, callback) {
     const defaultOptions = {
         method: 'GET',
         remote: false,
+        mode: 'no-cors',
         requestOptions: {
             formData: null,
             params: {},
